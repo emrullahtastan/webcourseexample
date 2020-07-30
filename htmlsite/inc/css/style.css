@@ -1,0 +1,101 @@
+#menu {
+    list-style-type: none;
+    clear: both;
+    display: flex;
+    padding:0;
+    margin: 0;
+    background-color: #3bb5a9;
+}
+#menu li {
+    float:left;
+    margin-right:10px;
+}
+#menu li a {
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    display: block;
+}
+#menu li a:hover{
+    background-color: white;
+    color:#3bb5a9;
+}
+
+
+
+.satir{
+    display: block;
+    clear: both;
+    margin-bottom:20px;
+}
+
+#sayfa{
+    width:1280px;
+    margin:0 auto;
+}
+
+.header{
+    background-position: center;
+    background-size: cover;
+    color:white;
+    font-size:50px;
+    text-align: center;
+    padding: 100px;
+}
+
+
+#anasayfagorseli{
+    background-image: url(../img/anasayfagorseli.jpg);
+}
+
+#hakkimizdagorseli{
+    background-image: url(../img/hakkimizdagorseli.jpg);
+    background-position: 50% 15%;
+}
+
+
+#egitimlergorseli{
+    background-image: url(../img/egitimlergorseli.jpg);
+    background-position: 50% 25%;
+}
+
+#iletisimgorseli{
+    background-image: url(../img/iletisimgorseli.jpg);
+}
+
+.degerlerimizsatiri{
+    display: flex;justify-content: center;
+    background-color: #95c0d6;
+}
+
+.degerbasligi{
+    color:white;
+    font-size:30px;
+}
+
+.deger{
+    text-align: center;margin:10px 100px;
+}
+
+.deger .fa{
+    font-size:50px;            
+    color: #000046;
+}
+
+.satiryazisi{
+    font-size:20px;
+}
+
+.egitim_gorseli img{
+    width:200px;
+}
+
+.egitim_gorseli{
+    float:left;
+    margin-right:20px;
+}
+
+.egitimsatiri{
+    margin-top:20px;
+    display: flex;
+}
